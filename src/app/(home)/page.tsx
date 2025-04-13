@@ -8,7 +8,7 @@ export default async function Home() {
   return (
     <HydrateClient>
       <ErrorBoundary fallback={<div>Something went wrong</div>}>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div>Loading... </div>}>
           <PageClient />
         </Suspense>
       </ErrorBoundary>
